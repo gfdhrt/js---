@@ -1,0 +1,13 @@
+.lb{width:1050px;height:590px;margin: 0 auto;overflow: hidden;position: relative;}
+.image{width: 5250px;height: 590px;border: none;position: absolute;z-index: 1;}
+.lb img{float: left;width: 1050px;height: 590px;}
+#aaa{position: absolute;width: 100px;z-index: 2;bottom: 20px;left: 500px;}
+#aaa span{cursor: pointer;float: left;border: 1px solid #fff;width: 20px;height: 20px;border-radius: 50%;background: #333;margin-right: 5px;}
+#aaa .hover{background:orangered;}
+.arrow{cursor: pointer; display: none; line-height: 39px; text-align: center; font-size: 36px; font-weight: bold; width: 40px; height: 40px;  position: absolute; z-index: 2; top: 270px; background-color: RGBA(0,0,0,.3); color: #fff;}
+.arrow:hover { background-color: RGBA(0,0,0,.7);}
+#lf{left: 20px;}
+#rg{right: 20px;}
+.lb:hover .arrow { display: block;}
+body{padding: 20px;}
+.lb a{float: left;}
